@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link, Switch, Route} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import RouteWithSubRoutes from '../../route/router.sub'
 
 const Index = ({routes}) => (

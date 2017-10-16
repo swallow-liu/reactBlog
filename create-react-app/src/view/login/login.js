@@ -1,11 +1,10 @@
 import React,{Component} from 'react'
-import { Button, Icon } from 'antd-mobile';
 import './login.css'
 
 class Login extends Component{
     render(){
         return(
-            <div>
+            <div className="login">
                 <form>
                 <div>
                     <input type="text" placeholder="请输入用户姓名"/>
